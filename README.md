@@ -17,9 +17,9 @@ Install the required Python dependencies:
 
 bash
 Copy code
-pip install boto3
-pip install pyspark
-pip install mysql-connector-python
+1. pip install boto3
+2. pip install pyspark
+2. pip install mysql-connector-python
 Dataset
 Go to the Kaggle MovieLens 20M dataset page: MovieLens 20M Dataset.
 
@@ -30,13 +30,13 @@ bash
 Copy code
 kaggle datasets download -d grouplens/movielens-20m-dataset
 Or downloading the dataset manually from the Kaggle website and extracting the files.
-The dataset contains the following files:
+# The dataset contains the following files:
 
 movies.csv: Contains movie metadata (e.g., title, genres).
 ratings.csv: Contains user ratings for movies.
 After downloading and extracting the dataset, upload the CSV files to your AWS S3 bucket (or use them locally for testing).
 
-Set Up AWS Glue and MySQL
+# Set Up AWS Glue and MySQL
 Create a MySQL Database and Table:
 
 Create a MySQL database (e.g., movie_lens_db).
