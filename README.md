@@ -154,4 +154,4 @@ Delete the Glue job (if deployed) from AWS Glue Console.
 6. License
 This project is licensed under the MIT License.
 
-# Remeinder glue connection for mysql has been created, this was assumed that was created, IAM Role was assumed that exists as well
+**Note**: The Glue connection for MySQL and the IAM Role are assumed to be created.
