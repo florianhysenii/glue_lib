@@ -1,0 +1,15 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore datasets folder (if the folder is named 'datasets')
+datasets/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore IDE and editor settings (optional)
+.idea/
+.vscode/
